@@ -1,0 +1,81 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f5;
+    background-image:
+        linear-gradient(rgba(255, 249, 246, 0.88),
+                        rgba(255, 249, 246, 0.88)),
+        url("https://img.criativodahora.com.br/2025/01/criativo-678ba29b314b6img-2025-01-18678ba29b314b8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #444;
+    margin: 0;
+}
+
+
+header {
+    background: #e85d75;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+main {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #d94362;
+    border-bottom: 2px solid #f3a6b5;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+.candy {
+    background: white;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border-left: 5px solid #e85d75;
+}
+
+h3 {
+    color: #b83250;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.low {
+    color: orange;
+    font-weight: bold;
+}
+
+.out {
+    color: red;
+    font-weight: bold;
+}
+
+li {
+    padding: 5px;
+}
+
+footer {
+    background: #713b4a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+}
